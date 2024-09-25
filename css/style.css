@@ -16,6 +16,7 @@ width: 100%
 /* header */
 
 
+
 .sidebar{
     cursor: pointer;
     width: 100vw;
@@ -27,7 +28,9 @@ width: 100%
     backdrop-filter: blur(900px);
     
 }
-
+.header a{
+    text-decoration: none;
+}
 .fl{
     
     position: absolute;

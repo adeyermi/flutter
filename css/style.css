@@ -18,31 +18,30 @@ width: 100%
 
 .sidebar{
     cursor: pointer;
+    width: 100vw;
+    height: max-content;
     top: 0;
-    left: 0;
-    position: absolute;
-    z-index: 999;
+    position: fixed;
+    z-index: 1;
     display: none;
-    backdrop-filter: blur(90px);
-   
-
+    backdrop-filter: blur(900px);
     
 }
 
 .fl{
+    
     position: absolute;
     top: 0;
     display: flex;
-    gap: 3rem;
-    justify-content: space-between;
     padding: 20px;
 }
 
 .navx{
-   
+    position: absolute;
     width: 25px;
     margin-bottom: 15px;
-    right: 4%;
+    right: -20%;
+    bottom: 30px;
    
 }
 .nav-l{
@@ -55,6 +54,8 @@ width: 100%
 }
 
 .navbar{
+    
+    position: relative;
     margin-top: 6rem;
     padding: 25px;
     display: block;
@@ -353,12 +354,14 @@ button{
 
 .hero-section h1{
     font-size: 6rem;
+    width: 10rem;
     padding: 30px;
     font-weight: 700;
     font-family:cursive;
     color: #fb9129;
 }
 .hero-section h1 span{
+    width: 30rem;
     color: black;
     display: block;
     font-family:cursive;
@@ -375,8 +378,7 @@ button{
 .hero-btn{
     padding: 30px;
     display:  flex;
-    gap: 10px
-    ;
+    gap: 10px;
 }
 .acc{
     width: 16rem;
@@ -1118,16 +1120,210 @@ to { background-position: 500px 0px; }
     .navx{
          display:block
     }
-}
-@media(max-width: 900px){
-    .hideonmobile{
-        display: none;
+
+
+    .hero-section h1{
+        font-size: 3rem;
+        width: 80vw;
+        padding: 30px;
+        font-weight: 700;
+        font-family:cursive;
+        color: #fb9129;
     }
 
-    .nav-l{
-        display: block;
+    .hero-section p{
+        width: 80vw;
+        padding: 0px 30px;
+        font-size: 15px;
+        line-height: 30px;
+        font-weight: 300;
+        
     }
-    .navx{
-         display:block
-    }
+
+.acc{
+    width: 16rem;
+    padding: 20px;
+    font-weight: 550;
+    font-size: 13px;
+}
+.sal{
+    width: 12rem;
+    background-color:#EEEEEE;
+    color:black;
+    padding: 15px;
+    font-weight: 550;
+    font-size: 13px;
+}
+
+/* container */
+
+.container{
+    width: 100vw;
+}
+
+.cont{
+    width: 90%;
+    margin: auto;
+}
+.cont-img{
+    margin-top: 40px;
+    display: block;
+}
+
+
+.img-one{
+    width: 76vw;
+    
+}
+
+.img-one img{
+    scale:1;
+    
+}
+
+.mid{
+    display: block;
+}
+
+.mid p{
+    margin-left: 40px;
+    position: absolute;
+    top: 29%;
+    left: 0%;
+    width: 74vw;
+    font-size: 15px;
+}
+
+.img-two{
+    width: 75vw;
+    transform: translate(0px, -50%);
+}
+.mid{
+    background-color: transparent
+}
+
+
+/* trusted */
+
+
+.trusted{
+    width: 100vw;
+    margin-top: -13rem;
+}
+
+.trust p{
+    padding: 0px 15px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.trust{
+    width: 90%;
+    margin: auto;
+}
+.trust-img{
+    display: grid;
+    align-items: center;
+    justify-content: space-around;
+    grid-template-columns: 2fr 2fr 2fr 2fr ;
+}
+.trust-img img{
+    width: 60px;
+    margin: 20px;
+}
+
+/* paymen */
+
+.paymen{
+    margin-top: 4rem;
+    background-color: #F8FAFD;
+    width: 100vw;
+}
+
+.pay-m{
+    
+    width: 90%;
+    margin: auto;
+}
+.endless p{
+    font-size:2.4rem;
+    line-height: 45px;
+}
+
+.end-sec{
+    display: block;
+    width: 90%;
+    margin-top: -12rem;
+
+}
+
+.end-sec h3{
+    font-weight: 600;
+    font-weight: 17px;
+    margin-bottom: 26px;
+}
+
+.end-sec p{
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.end-two{
+    padding-top: 40px;
+    width: 35vw;
+    border: none;
+   background-color: none;
+}
+.end-three{
+    margin-top: 3rem;
+    width: 50%;
+}
+
+.end-here{
+    margin-top: 3rem;
+}
+
+
+/* paymen */
+
+.paymen{
+    margin-top: 5rem;
+    width: 100vw;
+}
+
+.pay-m{
+    
+    width: 95%;
+    margin: auto;
+}
+.pay-m h3{
+    font-size: 2.3rem;
+    padding: 30px;
+   
+    line-height: 55px;
+}
+
+
+
+.paay{
+    margin-top: -6rem;
+    display: block;
+  
+}
+
+.paymen h3{
+
+    font-weight: 600;
+    font-weight: 17px;
+    margin-bottom: 30px;
+}
+
+.paymen p{
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.last-paay button{
+    padding: 18px;
+    width: 7rem;
+}
 }

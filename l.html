@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header Styling */
+.header {
+    width: 100%;
+    background-color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo {
+    width: 150px;
+}
+
+.logo-img {
+    width: 100%;
+    height: auto;
+}
+
+/* Main Nav Styles */
+.end {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.end ul {
+    list-style: none;
+    display: flex;
+}
+
+.end li {
+    padding: 10px 15px;
+    cursor: pointer;
+    position: relative;
+}
+
+.end li .div-l, .end li .div-K, .end li .div-j, .end li .div-p {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    width: 250px;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.end li:hover .div-l {
+    display: block;
+}
+
+/* Mobile Toggle Button */
+#toggle-btn {
+    display: none;
+    cursor: pointer;
+}
+
+#toggle-btn img {
+    width: 30px;
+    height: 30px;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    .hideonmobile {
+        display: none;
+    }
+
+    #toggle-btn {
+        display: block;
+    }
+
+    .navl {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #nav-menu {
+        position: fixed;
+        right: -300px;
+        top: 0;
+        height: 100vh;
+        width: 250px;
+        background-color: #fff;
+        box-shadow: -2px 0 5px rgba(0,0,0,0.5);
+        transition: right 0.3s ease;
+        flex-direction: column;
+    }
+
+    #nav-menu.active {
+        right: 0;
+    }
+
+    .nave {
+        margin-top: 20px;
+    }
+}
+
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="sub-h">
+            <div class="navl">
+                <div class="logo">
+                    <img src="images/download (3).svg" alt="Logo" class="logo-img">
+                </div>
+    
+                <!-- Main Navigation -->
+                <div class="end hideonmobile" id="nav-menu">
+                    <ul>
+                        <li class="enter">Enterprise
+                            <div class="div-l">
+                                <!-- Enterprise Dropdown Content -->
+                                <div class="super">
+                                    <div class="first">
+                                        <h3><a href="#">Payment solution</a></h3>
+                                        <h3><a href="#">Grow your business</a></h3>
+                                    </div>
+                                    <div class="second">
+                                        <div class="navslide">
+                                            <img src="images/download (14).svg" alt="Online Payments">
+                                            <h4>Accept online payments</h4>
+                                            <p>Easily receive online payments globally.</p>
+                                        </div>
+                                        <div class="navslide">
+                                            <img src="images/download (8).svg" alt="Payouts">
+                                            <h4>Payout & Transfers</h4>
+                                            <p>Effortless cross-border transfers.</p>
+                                        </div>
+                                        <!-- Add more items as needed -->
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- Add other menu items for SME, Personal, Resources, etc. -->
+                    </ul>
+                    <div class="nave">
+                        <button id="navs">Sign in</button>
+                    </div>
+                </div>
+    
+                <!-- Mobile Toggle -->
+                <div class="nav-l" id="toggle-btn">
+                    <img src="images/navbar.svg" alt="Toggle Menu">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+// JavaScript to toggle the menu
+const toggleBtn = document.getElementById('toggle-btn');
+const navMenu = document.getElementById('nav-menu');
+
+toggleBtn.addEventListener('click', () => {
+    navMenu.classList.toggle('active');
+});
+
+</script>
+    
+</body>
+</html>

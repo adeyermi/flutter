@@ -494,7 +494,7 @@ Color:
     font-size:6rem;
     padding: 30px;
     font-weight: 700;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serifsss;
     color: #1d1d1d;
     line-height: 100px;
 }
@@ -566,7 +566,7 @@ Color:
     font-size:6rem;
     padding: 30px;
     font-weight: 700;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serifsss;
     color: #1d1d1d;
     line-height: 100px;
 }
@@ -685,7 +685,7 @@ Color:
     font-size:5rem;
     padding: 30px;
     font-weight: 700;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serifsss;
     text-align: center;
     line-height: 100px;
 }
@@ -841,7 +841,7 @@ Color:
     padding-top: 100px;
     margin-right: 90px;
     font-weight: 700;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serifsss;
     line-height: 100px;
 }
 
@@ -936,7 +936,7 @@ to { background-position: 500px 0px; }
     font-size:3.6rem;
     padding-top: 20px;
     font-weight: 700;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serifsss;
     line-height: 100px;
 }
 .r-text p{
@@ -1129,10 +1129,10 @@ to { background-position: 500px 0px; }
 
     .hero-section h1{
         font-size: 3rem;
-        width: 80vw;
+        width: 90vw;
         padding: 30px;
         font-weight: 700;
-        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serifsss;
         color: #fb9129;
     }
 
@@ -1364,7 +1364,7 @@ to { background-position: 500px 0px; }
        line-height: 2rem;
        padding-top: 20px;
        font-weight: 700;
-       font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+       font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serifsss;
    }
    .r-text p{
    
@@ -1940,7 +1940,7 @@ input[type=submit] {
         background-color: #000000;
         margin-top: 120px;
         color: white;
-        height:165vh;
+        height:180vh;
 
     }
     .card-word{
@@ -2098,12 +2098,12 @@ input[type=submit] {
     }
     
     .world-text{
-        margin-left: 70px;
-        width: 90vw;
+        margin-left: 50px;
+        width: 85vw;
         line-height: 30px;
     }
     .world-text h4{
-        font-size: 20px;
+        font-size: 18px;
         font-weight: 600;
     }
     .world-text #bb{
@@ -2178,7 +2178,7 @@ input[type=submit] {
         line-height: 2rem;
         padding-top: 20px;
         font-weight: 700;
-        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serifsss;
     }
     .r-text p{
     
@@ -2234,7 +2234,7 @@ input[type=submit] {
         font-size:3.rem;
         padding-top: 20px;
         font-weight: 7400;
-        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serifsss;
         line-height: 100px;
     }
     .r-text p{

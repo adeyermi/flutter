@@ -1940,7 +1940,7 @@ input[type=submit] {
         background-color: #000000;
         margin-top: 120px;
         color: white;
-        height:145vh;
+        height:165vh;
 
     }
     .card-word{
@@ -1959,6 +1959,14 @@ input[type=submit] {
     
     .card-word span{
         color: #f1a5c2;
+    }
+    .card:hover {
+        transform:none;
+        z-index: 0; 
+    }
+
+    .containery:hover .card:not(:hover) {
+        transform: translateX(0px);
     }
     .card-word p{
         margin: auto;
@@ -2062,6 +2070,7 @@ input[type=submit] {
     
     /* global */
     .global{
+        margin-top: 4rem;
         width: 100vw;
     
     }

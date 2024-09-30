@@ -375,7 +375,7 @@ Color:#6672C7
 .money h1{
     width: 80%;
 font-size: 82px;
-font-family: cursive;
+font-family::Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 font-weight: 700;
 }
 
@@ -476,7 +476,7 @@ font-weight: 700;
     padding-top: 100px;
     margin-right: 90px;
     font-weight: 700;
-    font-family:cursive;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     line-height: 90px;
    
 }
@@ -594,7 +594,7 @@ font-weight: 700;
     font-size:3.6rem;
     padding-top: 20px;
     font-weight: 700;
-    font-family:cursive;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     line-height: 100px;
 }
 .r-text p{
@@ -958,7 +958,7 @@ font-size: 2.7rem;
     padding-top: 100px;
     margin-right: 90px;
     font-weight: 700;
-    font-family:cursive;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     line-height: 4rem;
    
 }
@@ -1078,7 +1078,7 @@ font-size: 2.7rem;
     line-height: 2rem;
     padding-top: 20px;
     font-weight: 700;
-    font-family:cursive;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .r-text p{
 
@@ -1384,7 +1384,7 @@ font-size: 1.8rem;
     padding-top: 100px;
     margin-right: 90px;
     font-weight: 700;
-    font-family:cursive;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     line-height: 4rem;
    
 }
@@ -1504,7 +1504,7 @@ font-size: 1.8rem;
     line-height: 2rem;
     padding-top: 20px;
     font-weight: 700;
-    font-family:cursive;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .r-text p{
 
@@ -1571,7 +1571,7 @@ Color:#6672C7
 .money h1{
 width: 70%;
 font-size: 75px;
-font-family: cursive;
+font-family::Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 font-weight: 700;
 }
 
@@ -1677,7 +1677,7 @@ font-weight: 700;
     padding-top: 100px;
     margin-right: 90px;
     font-weight: 700;
-    font-family:cursive;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     line-height: 90px;
    
 }
@@ -1796,7 +1796,7 @@ font-weight: 700;
     font-size:3.6rem;
     padding-top: 20px;
     font-weight: 700;
-    font-family:cursive;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     line-height: 100px;
 }
 .r-text p{

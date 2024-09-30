@@ -534,7 +534,7 @@ input[type=submit] {
     font-size:3.6rem;
     padding-top: 20px;
     font-weight: 700;
-    font-family:cursive;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     line-height: 100px;
 }
 .r-text p{
@@ -913,7 +913,7 @@ input[type=submit] {
        line-height: 2rem;
        padding-top: 20px;
        font-weight: 700;
-       font-family:cursive;
+       font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
    }
    .r-text p{
    
@@ -1220,7 +1220,7 @@ color: #FB9129;
         line-height: 2rem;
         padding-top: 20px;
         font-weight: 700;
-        font-family:cursive;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
     .r-text p{
     
@@ -1276,7 +1276,7 @@ color: #FB9129;
         font-size:3.rem;
         padding-top: 20px;
         font-weight: 7400;
-        font-family:cursive;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         line-height: 100px;
     }
     .r-text p{

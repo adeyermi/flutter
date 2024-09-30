@@ -9,7 +9,8 @@
 
 body{
 margin: 0;
-width: 100%
+width: 100%;
+overflow-x:hidden;
 
 }
 
@@ -351,7 +352,7 @@ button{
 .price h3{
     font-size: 6rem;
     font-weight: 600;
-    font-family: cursive;
+    font-family::Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .price span{
   
@@ -363,12 +364,13 @@ button{
     font-size: 22px;
 }
 
-.country{
+
+.countri{
     margin-top: -8rem;
     position: relative;
 }
 
-.nation .i{
+.naton .i{
     text-align: center;
     align-items: center;
     width: 100px;
@@ -381,12 +383,12 @@ button{
 
 }
 
-.nation .i img{
+.naton .i img{
 width: 60px;
 
 }
 
- .op{
+ .opa{
 
     width: 30px;
     height: 30px;
@@ -397,18 +399,18 @@ width: 60px;
     background-position: 100%;
     
 }
-.na{
+.nana{
     padding-top: 40px;
     cursor:pointer;
-    margin-top: 190px;
+    margin-top: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.country:hover .hide{
+.countri:hover .hiding{
     display: block;
 }
-.na p{
+.nana p{
    text-align: center;
    margin-top: 20px;
     padding: 20px; 
@@ -416,10 +418,10 @@ width: 60px;
 }
 
 
-.hide{
+.hiding{
     display: none;
 }
-.nation{
+.naton{
     z-index: 999;
     position: absolute;
     left: 30%;
@@ -432,9 +434,10 @@ width: 60px;
     grid-template-columns: 1fr 1fr 1fr;
 }
 
+
 /* collection */
 .collection{
-    margin-top: 7rem;
+    margin-top: 5rem;
     width: 100vw;
 }
 
@@ -524,7 +527,7 @@ span{
 .trans h4{
     font-size: 50px;
     font-weight: 900;
-    font-family: cursive;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
     margin-bottom: 60px;
 }
@@ -574,7 +577,7 @@ span{
     padding-top: 100px;
     margin-right: 90px;
     font-weight: 700;
-    font-family:cursive;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     line-height: 100px;
 }
 
@@ -757,7 +760,7 @@ to { background-position: 500px 0px; }
     font-size:3.6rem;
     padding-top: 20px;
     font-weight: 700;
-    font-family:cursive;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     line-height: 100px;
 }
 .r-text p{
@@ -793,6 +796,7 @@ to { background-position: 500px 0px; }
     width: 90%;
     margin: auto;
     display: flex;
+    justify-content: space-between;
     line-height: 43px;
 }
 
@@ -946,4 +950,1055 @@ to { background-position: 500px 0px; }
     .navx{
          display:block
     }
+
+
+    
+/* pricing */
+ .pricing{
+    width: 100vw;
+ }
+
+ .price{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+ }
+.price h3{
+    font-size: 2.7rem;
+    font-weight: 800;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+.price span{
+  
+    color: #6672C7;
+}
+
+.price p{
+    padding-top: 30px ;
+    font-size: 17px;
+}
+
+
+
+.countri{
+    margin-top: -8rem;
+    position: relative;
+}
+
+.naton .i{
+    text-align: center;
+    align-items: start;
+    justify-content: flex-start;
+    gap: 2px;
+    display: flex;
+    font-size: 10px;
+    gap: 2px;
+    padding: 30px;
+
+
+}
+
+.naton .i img{
+width: 30px;
+
+}
+
+ .opa{
+
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-image: url(../images/ng.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 100%;
+    
+}
+.nana{
+    padding-top: 10px;
+    cursor:pointer;
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.countri:hover .hiding{
+    display: block;
+}
+.nana p{
+   text-align: center;
+   margin-top: 20px;
+    padding: 20px; 
+    font-size: 16px;
+}
+
+
+.hiding{
+    display: none;
+}
+.naton{
+    z-index: 999;
+    position: absolute;
+    left: 10%;
+    padding: 2px;
+    background-color: white;
+    border-radius: 30px;
+    width: 80vw;
+    box-shadow: 0px 0px 55px grey;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+/* collection */
+.collection{
+    margin-top: 5rem;
+    width: 100vw;
+}
+
+.collect{
+width: 100%;
+margin: auto;
+}
+.collect-one{
+    border-radius: 23px;
+    background-color: #F6F9FC;
+    height: 80vh;
+    
+
+    margin-top: 40px;
+}
+
+.collect-part hr{
+    border: 1px dotted;
+}
+
+.collect-part{
+    display: block;
+    padding: 30px;
+    margin: auto;
+    gap: 20px;
+}
+.collect-i{
+    display: flex;
+    gap: 20px;
+}
+.collect h2{
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 800;
+}
+
+.collect-one{
+    padding: 30px;
+}
+.collect-one h4{
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 600;
+    Color:#767676
+}
+
+.collect-one h5 span{
+    font-size: 30px;
+    color: #6672c7;
+    font-weight: 600;
+}
+
+.collect-one p{
+    font-size: 13px;
+    line-height: 30px;
+}
+
+.collect-one p i{
+    color: #6672c7;
+    font-size: 13px;
+    padding-right:  10px;
+}
+
+.collect-one p
+span{
+    font-size: 18px;
+    color: #6672c7;
+}
+
+.collect-one h5{
+    padding-top: 15px;
+    font-size: 14px;
+    color: #1d1d1d;
+}
+
+
+/* transfer */
+
+.transfer{
+    width: 100vw;
+    margin-top: 5rem;
+}
+
+.trans{
+    width: 90%;
+    margin: auto;
+}
+
+.trans h4{
+    font-size: 30px;
+    font-weight: 900;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.t-sec{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.t-sec h5{
+    font-size: 16px;
+    width: 40vw;
+}
+
+.t-sec h3{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.last-trans{
+    margin-top: 6rem;
+    text-align: start;
+    background-color: #F8FAFD;
+    border-radius: 20px;
+}
+
+.last-trans p{
+    padding: 32px;
+}
+
+.last-trans a{
+    text-decoration: none;
+    color: #7CD2D4;
+}
+
+/* faq */
+
+.fa-head h4{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2rem;
+}
+
+
+
+    /* global */
+    .global{
+        margin-top: 4rem;
+        width: 100vw;
+    
+    }
+    .globe h4{
+        width: 90%;
+        margin: auto;
+        font-size:2.1rem;
+        padding-top: 50px;
+        margin-right: 0px;
+        font-weight: 700;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        line-height: 100px;
+    }
+    
+    .globe span{color: #6672C7;}
+    
+    
+    
+    .world{
+        margin-top: 2rem;
+        width: 100vw;
+        display:  block;
+        justify-content: space-around;
+        gap: 10px;
+    }
+    
+    .world-text{
+        margin-left: 70px;
+        width: 90vw;
+        line-height: 30px;
+    }
+    .world-text h4{
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .world-text #bb{
+        color: #00ABAB;
+    }
+    
+    .world-text p{
+        margin-bottom: 35px;
+    }
+    .w-text{
+        display: flex;
+        padding-top: 20px;
+        gap: 30px;
+        justify-content: space-evenly;
+        }
+    .w-text ul li{
+        margin-left: -7rem;
+        list-style: none;
+        line-height: 35px;
+    
+    }
+        
+    #earth {
+       
+       margin: auto;
+      margin-top: 9rem;
+    width: 30vw;
+    height: 30vw;
+    background: url(https://w0.peakpx.com/wallpaper/454/147/HD-wallpaper-earth-map-world-country-earth-map.jpg);
+    border-radius: 50%;
+    background-size: 510px;
+    transform: scale(2.2);
+    animation-name: rotate;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    -webkit-animation-name: rotate;
+    -webkit-animation-duration: 12s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    }
+    
+    @keyframes rotate {
+    from { background-position: 0px 0px; }
+    to { background-position: 500px 0px; }
+    }
+    @-webkit-keyframes rotate {
+    from { background-position: 0px 0px; }
+    to { background-position: 500px 0px; }
+    }
+/* safety */
+
+.safety{
+
+    margin-top: 5rem ;
+    width: 100vw;
+  
+}
+
+.security{
+    width: 88%;
+    margin: auto;
+}
+
+.security h1{
+    line-height: 4.2rem;
+    font-size: 3rem;
+    font-weight: 700;
+    font-family:sans-serif;
+}
+.security h1 span{
+    color: #6672C7;
+}
+
+.security p{
+    padding:  20px 0px;
+    font-size: 21px;
+    color: #1d1d1d;
+}
+
+.safe{
+    padding-top:  30px;
+    display: block;
+    justify-content: space-between;
+    gap: 70px
+    ;
+
+
+}
+
+.secc{
+  width: 100%;
+}
+
+
+.safe h3{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.safe p {
+    font-size: 17px;
+    width: 70%;
+}
+
+ 
+
+/* ready */
+
+.ready{
+    width: 100vw;
+    margin-top: 10rem;
+   
+   }
+   
+   .rstart{     
+       box-shadow: 0px 0px 50px  rgb(133, 133, 133);      
+       border-radius: 12px;
+       color: white;
+       width: 90%;
+       margin: auto;
+       background-color: black;
+   }
+   .r-text{
+       padding: 30px;
+       width: 90%;
+       margin: auto;
+   }
+   .r-text h1{
+       font-size:2rem;
+       line-height: 2rem;
+       padding-top: 20px;
+       font-weight: 700;
+       font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   }
+   .r-text p{
+   
+       padding-top: 25px;
+       font-size: 16px;
+   }
+   
+   .r-l{
+       padding-top: 55px;
+       padding-bottom: 30px;
+   }
+   .r-text button{
+       background-color: white;
+       color: #000000;
+       padding: 15px;
+       width: 9rem;
+       margin-right: 3rem;
+   }
+   
+   .r-text a{
+       text-decoration: none;
+       color: white;
+       font-size: 10px;
+   }
+   
+   /* footer */
+   
+   .footer{
+       margin-top: 13rem;
+   }
+   .foot{
+       width: 98%;
+       margin: auto;
+       display: block;
+       line-height: 43px;
+       justify-content: space-between;
+   }
+   
+   .foot p{
+       font-weight: 600;
+       margin-left: 2rem;
+       font-size: 17px;
+   }
+   
+   .foot ul li{
+       list-style: none;
+       font-size: 13px;
+       
+   }
+   
+   .foot ul li ul li:hover{
+       color: #6672C7;
+       cursor: pointer;
+       
+   }
+   
+   /* country */
+   
+   .country{
+       margin-top: -14.5rem;
+       position: relative;
+       
+   }
+   
+   .country-side a{
+       color: #1d1d1d;
+       text-decoration: none;
+       display: block;
+       padding: 20px;
+       font-size: 14px;
+   }
+   
+   .country-side a:hover{
+       color:#00abab;
+   }
+   
+   .nations .i{
+       text-align: center;
+       align-items: center;
+       width: 40px;
+       margin: auto;
+       display: block;
+       font-size: 12px;
+       gap: 2px;
+       padding: 15px;
+   
+   
+   }
+   
+   .nations .i img{
+       width: 30px;
+   
+   }
+   
+    .ops{
+   
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      background-image: url(../images/ng.svg);
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: 100%;
+       
+   }
+   .na{
+       cursor:pointer;
+       margin-top:13rem;
+       display: flex;
+       justify-content: flex-start;
+       align-items: center;
+   }
+   .country:hover .hides{
+       display: block;
+   }
+   .na p{
+      text-align: center;
+      margin-top: 20px;
+       padding: 29px; 
+       font-size: 18px;
+   }
+   
+   
+   .nations{
+       z-index: 999;
+       position: absolute;
+       top: -60%;
+       left: 0;
+       padding: 10px;
+       background-color: white;
+       border-radius: 30px;
+       width: 60vw;
+       box-shadow: 0px 0px 55px grey;
+       display: grid;
+       grid-template-columns: 1fr 1fr 1fr;
+   }
+   
+   .nation-side{
+       width: 85%;
+       margin: auto;
+       display: block;
+       justify-content: space-between;
+       
+   }
+   
+   #foot{
+     margin-bottom: 2rem;
+   }
+   
+   #foo{
+       margin-top: -10px;
+   }
+   
+   /* footer-last */
+   
+   .footer-last{
+       width: 91%;
+       margin: auto;
+   }
+   .footer-last a{
+       display: block;
+       text-decoration: none;
+       padding: 20px 28px;
+       color: #000000;
+       font-size: 12px;
+   }
+   
+   .footer-last a:hover{
+      color: #00ABAB;
+   }
+   .footer-la{
+       width: 91%;
+       margin: auto;
+   }
+   .footer-la p{
+      margin-top: 2rem;
+      font-size: 14px;
+   }
+   
+   
+   }
+   
+   @media(max-width:714px){
+ 
+
+.forms{
+    margin-top: 3rem;
+    width: 100vw;
+}
+
+.form{
+    margin: auto;
+    width: 90%;
+    box-shadow: 0 0 6px 0.5px #888;
+    border-radius: 10px;
+   text-align: center;
+    padding: 50px 5px;
+}
+
+.form p{
+    text-align: start;
+    padding-left: 30px;
+    font-size: 12px;
+    color:  #FF9B00;
+    font-weight: 550;
+}
+.name{
+    display: block;
+}
+
+input[type=text] {
+    text-align: start;
+    width: 90%;
+    padding: 16px;
+    margin: 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+  }
+  input[type=email], [type=null]{
+    width: 90%;
+    padding: 16px;
+    margin: 20px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+  }
+
+input[type=submit] {
+    width: 90%;
+    background-color: #FF9B00;
+    color: black;
+    padding: 16px;
+    margin: 20px 0;
+    border: none;
+    font-size: 12px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+
+    }
+    
+
+   
+@media(max-width:600px){
+   
+    /* global */
+    .global{
+        margin-top: 4rem;
+        width: 100vw;
+    
+    }
+    .globe h4{
+        width: 90%;
+        margin: auto;
+        font-size:2.1rem;
+        padding-top: 50px;
+        margin-right: 0px;
+        font-weight: 700;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        line-height: 100px;
+    }
+    
+    .globe span{color: #6672C7;}
+    
+    
+    
+    .world{
+        margin-top: 2rem;
+        width: 100vw;
+        display:  block;
+        justify-content: space-around;
+        gap: 10px;
+    }
+    
+    .world-text{
+        margin-left: 70px;
+        width: 90vw;
+        line-height: 30px;
+    }
+    .world-text h4{
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .world-text #bb{
+        color: #00ABAB;
+    }
+    
+    .world-text p{
+        margin-bottom: 35px;
+    }
+    .w-text{
+        display: flex;
+        padding-top: 20px;
+        gap: 30px;
+        justify-content: space-evenly;
+        }
+    .w-text ul li{
+        margin-left: -7rem;
+        list-style: none;
+        line-height: 35px;
+    
+    }
+        
+    #earth {
+       
+       margin: auto;
+      margin-top: 9rem;
+    width: 30vw;
+    height: 30vw;
+    background: url(https://w0.peakpx.com/wallpaper/454/147/HD-wallpaper-earth-map-world-country-earth-map.jpg);
+    border-radius: 50%;
+    background-size: 510px;
+    transform: scale(2.2);
+    animation-name: rotate;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    -webkit-animation-name: rotate;
+    -webkit-animation-duration: 12s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    }
+    
+    @keyframes rotate {
+    from { background-position: 0px 0px; }
+    to { background-position: 500px 0px; }
+    }
+    @-webkit-keyframes rotate {
+    from { background-position: 0px 0px; }
+    to { background-position: 500px 0px; }
+    }
+
+    
+/* safety */
+
+.safety{
+
+    margin-top: 5rem ;
+    width: 100vw;
+  
+}
+
+.security{
+    width: 88%;
+    margin: auto;
+}
+
+.security h1{
+    line-height: 4.2rem;
+    font-size: 3rem;
+    font-weight: 700;
+    font-family:sans-serif;
+}
+.security h1 span{
+    color: #6672C7;
+}
+
+.security p{
+    padding:  20px 0px;
+    font-size: 21px;
+    color: #1d1d1d;
+}
+
+.safe{
+    padding-top:  30px;
+    display: block;
+    justify-content: space-between;
+    gap: 70px
+    ;
+
+
+}
+
+.secc{
+  width: 100%;
+}
+
+
+.safe h3{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.safe p {
+    font-size: 17px;
+    width: 70%;
+}
+    .rstart{     
+        box-shadow: 0px 0px 50px  rgb(133, 133, 133);      
+        border-radius: 12px;
+        color: white;
+        width: 90%;
+        margin: auto;
+        background-color: black;
+    }
+    .r-text{
+        padding: 30px;
+        width: 90%;
+        margin: auto;
+    }
+    .r-text h1{
+        font-size:2rem;
+        line-height: 2rem;
+        padding-top: 20px;
+        font-weight: 700;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .r-text p{
+    
+        padding-top: 25px;
+        font-size: 16px;
+    }
+    
+    .r-l{
+        display: block;
+        padding-top: 55px;
+        padding-bottom: 30px;
+    }
+    .r-text button{
+        background-color: white;
+        color: #000000;
+        padding: 20px;
+        width: 9rem;
+        margin-right: 3rem;
+    }
+    
+    .r-text a{
+        text-decoration: none;
+        color: white;
+    }
+     
+    
+    }
+
+
+@media (min-width: 900px){     
+   
+    /* ready */
+    
+    .ready{
+     width: 100vw;
+     margin-top: 18rem;
+    
+    }
+    
+    .rstart{     
+        box-shadow: 0px 0px 50px  rgb(133, 133, 133);      
+        border-radius: 12px;
+        color: white;
+        width: 90%;
+        margin: auto;
+        background-color: black;
+    }
+    .r-text{
+        padding: 30px;
+        width: 90%;
+    }
+    .r-text h1{
+        font-size:3.rem;
+        padding-top: 20px;
+        font-weight: 7400;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        line-height: 100px;
+    }
+    .r-text p{
+    
+        padding-top: 25px;
+        font-size: 20px;
+    }
+    
+    .r-l{
+        padding-top: 55px;
+        padding-bottom: 30px;
+    }
+    .r-text button{
+        background-color: white;
+        color: #000000;
+        padding: 20px;
+        width: 9rem;
+        margin-right: 3rem;
+    }
+    
+    .r-text a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    /* footer */
+    
+    .footer{
+        margin-top: 13rem;
+    }
+    .foot{
+        width: 98%;
+        margin: auto;
+        display: flex;
+        line-height: 43px;
+        justify-content: space-between;
+    }
+    
+    .foot p{
+        font-weight: 600;
+        margin-left: 2rem;
+        font-size: 17px;
+    }
+    
+    .foot ul li{
+        list-style: none;
+        font-size: 13px;
+        
+    }
+    
+    .foot ul li ul li:hover{
+        color: #6672C7;
+        cursor: pointer;
+        
+    }
+    
+    /* country */
+    
+    .country{
+        margin-top: -14.5rem;
+        position: relative;
+    }
+    
+    .country-side a{
+        color: #1d1d1d;
+        text-decoration: none;
+        padding: 20px;
+        font-size: 14px;
+    }
+    
+    .country-side a:hover{
+        color:#00abab;
+    }
+    
+    .nations .i{
+        text-align: center;
+        align-items: center;
+        width: 100px;
+        margin: auto;
+        display: flex;
+        font-size: 12px;
+        gap: 5px;
+        padding: 15px;
+    
+    
+    }
+    
+    .nations .i img{
+        width: 60px;
+    
+    }
+    
+     .ops{
+    
+       width: 30px;
+       height: 30px;
+       border-radius: 50%;
+       background-image: url(/images/ng.svg);
+       background-repeat: no-repeat;
+       background-size: contain;
+       background-position: 100%;
+        
+    }
+    .na{
+        cursor:pointer;
+        margin-top: 190px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .country:hover .hides{
+        display: block;
+    }
+    .na p{
+       text-align: center;
+       margin-top: 20px;
+        padding: 20px; 
+        font-size: 18px;
+    }
+    
+    .hides{
+        display: none;
+    }
+    .nations{
+        z-index: 999;
+        position: absolute;
+        top: -60%;
+        left: 0;
+        padding: 10px;
+        background-color: white;
+        border-radius: 30px;
+        width: 50vw;
+        box-shadow: 0px 0px 55px grey;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+    .nation-side{
+        width: 85%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    
+    #foot{
+      margin-bottom: 2rem;
+    }
+    
+    #foo{
+        margin-top: -10px;
+    }
+    
+    /* footer-last */
+    
+    .footer-last{
+        width: 85%;
+        margin: auto;
+    }
+    .footer-last a{
+        text-decoration: none;
+        padding: 0px 25px;
+        color: #000000;
+    }
+    
+    .footer-last a:hover{
+       color: #00ABAB;
+    }
+    .footer-la{
+        width: 81%;
+        margin: auto;
+    }
+    .footer-la p{
+       margin-top: 2rem;
+    }
+    
+    }
+    

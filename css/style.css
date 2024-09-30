@@ -494,7 +494,7 @@ Color:
     font-size:6rem;
     padding: 30px;
     font-weight: 700;
-    font-family:cursive;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: #1d1d1d;
     line-height: 100px;
 }
@@ -566,7 +566,7 @@ Color:
     font-size:6rem;
     padding: 30px;
     font-weight: 700;
-    font-family:cursive;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: #1d1d1d;
     line-height: 100px;
 }
@@ -685,7 +685,7 @@ Color:
     font-size:5rem;
     padding: 30px;
     font-weight: 700;
-    font-family:cursive;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
     line-height: 100px;
 }
@@ -841,7 +841,7 @@ Color:
     padding-top: 100px;
     margin-right: 90px;
     font-weight: 700;
-    font-family:cursive;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     line-height: 100px;
 }
 
@@ -936,7 +936,7 @@ to { background-position: 500px 0px; }
     font-size:3.6rem;
     padding-top: 20px;
     font-weight: 700;
-    font-family:cursive;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     line-height: 100px;
 }
 .r-text p{
@@ -1132,7 +1132,7 @@ to { background-position: 500px 0px; }
         width: 80vw;
         padding: 30px;
         font-weight: 700;
-        font-family:cursive;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         color: #fb9129;
     }
 
@@ -1364,7 +1364,7 @@ to { background-position: 500px 0px; }
        line-height: 2rem;
        padding-top: 20px;
        font-weight: 700;
-       font-family:cursive;
+       font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
    }
    .r-text p{
    
@@ -2178,7 +2178,7 @@ input[type=submit] {
         line-height: 2rem;
         padding-top: 20px;
         font-weight: 700;
-        font-family:cursive;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
     .r-text p{
     
@@ -2208,7 +2208,7 @@ input[type=submit] {
     }
 
 
-@media (min-width: 910px){     
+@media (min-width: 900px){     
    
     /* ready */
     
@@ -2234,7 +2234,7 @@ input[type=submit] {
         font-size:3.rem;
         padding-top: 20px;
         font-weight: 7400;
-        font-family:cursive;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         line-height: 100px;
     }
     .r-text p{
